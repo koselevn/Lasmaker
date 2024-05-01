@@ -1,0 +1,233 @@
+/* header */
+
+header {
+    margin-bottom: 160px;
+    background-image: url(/img/header-fon.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+
+    padding-bottom: 112px;
+    /* margin-bottom: 32px; */
+}
+
+.header-nav {
+    margin-bottom: 100px;
+}
+
+.header-nav > ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 26px;
+
+    padding-top: 28px;
+
+}
+
+.header-nav>ul>li {
+    color: white;
+    font-size: 14px;
+    font-family: Belgrano;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.header-nav>ul>li:hover {
+    color: #F370A7;
+}
+
+/* About */
+
+.about-content{
+    margin-bottom: 60px;
+}
+
+.about-title::before{
+    content: '';
+    position: absolute;
+    background-image: url(/img/Ellipse.svg);
+    left: 120px;
+    width: 40px;
+    height: 40px;
+
+    z-index: -1;
+}
+
+.about-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Desc (description) */
+
+.description{
+    margin-bottom: 160px;
+    background-image: url(/img/bg-description.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.desc-absolute-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-text-div{
+    margin-top: 147px;
+    max-width: 555px;
+}
+
+/* Cards section */
+
+.cards-section{
+    margin-top: 55px;
+    margin-bottom: 125px;
+}
+
+.cards{
+    justify-content: center;
+    display: flex;
+    column-gap: 125px;
+
+    margin-top: 88px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 344px;
+    height: 383px;
+    padding: 30px;
+
+    transition: all 0.3s;
+
+    margin-bottom: 100px;
+    
+}
+
+.card:hover{
+    box-shadow: 4px 20px 24px -2px rgba(0, 0, 0, 0.12);
+}
+
+.card-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.text-card {
+    max-width: 292px;
+}
+
+/* photos */
+
+.PTB::before {
+    content: '';
+    position: absolute;
+    background-image: url(/img/Ellipse.svg);
+    display: block;
+    left: 58%;
+    width: 40px;
+    height: 40px;
+
+    z-index: -1;
+}
+
+.photos-photos{
+    display: flex;
+
+    margin-top: 30px;
+    margin-bottom: 127px;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.photos-photos > img{
+    width: 400px;
+    height: 325px;
+
+
+    margin-bottom: 30px;
+}
+
+/* Price */
+
+.price-section{
+    margin-bottom: 160px;
+}
+
+.price-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+
+.price-cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+    flex-wrap: wrap;
+}
+
+.price-card{
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.price-card:hover {
+    box-shadow: 4px 20px 24px -2px rgba(0, 0, 0, 0.12);
+}
+
+.price-card-text{
+    max-width: 548px;
+}
+
+.price-span{
+    position: absolute;
+    background-color:#F370A7;
+    padding: 12px 45px;
+    bottom: -10px;
+    right: -30px;
+}
+
+.MB-card{
+    margin-bottom: 70px;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.contact-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-div{
+    column-gap: 40px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.phone{
+    padding-top: 50px;
+
+    transition: all 0.3s;
+}
+
+.phone:hover {
+    opacity: 0.5;
+}

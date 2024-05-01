@@ -1,0 +1,25 @@
+.about-div {
+    display: block;
+    justify-content: center;
+}
+
+.desc-img{
+    display: none;
+    justify-content: center;
+}
+
+.desc-text-div {
+    margin-top: 50px;
+}
+
+.desc-absolute-div {
+    justify-content: left;
+}
+
+.price-card {
+    box-shadow: 4px 20px 24px -2px rgba(0, 0, 0, 0.12);
+}
+
+.card {
+    box-shadow: 4px 20px 24px -2px rgba(0, 0, 0, 0.12);
+}

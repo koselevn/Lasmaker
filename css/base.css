@@ -1,0 +1,86 @@
+/* text */
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.h2 {
+    color: white;
+    font-size: 32px;
+    font-family: Belgrano;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-top: -20px;
+}
+
+.text-1 {
+    color: black;
+    font-size: 24px;
+    font-family: Belgrano;
+
+    max-width: 676px;
+}
+
+.text-2 {
+    color: black;
+    font-size: 20px;
+    font-family: Belgrano;
+    text-transform: uppercase;
+}
+
+.text-3 {
+    color: white;
+    font-size: 32px;
+    font-family: Belgrano;
+    text-transform: uppercase;
+}
+
+.title-1 {
+    color: black;
+    font-size: 70px;
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+}
+
+.title-2 {
+    color: black;
+    font-size: 60px;
+    font-family: Belgrano;
+    text-transform: uppercase;
+}
+
+/* base */
+
+.center{
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.container {
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.by-from{
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+    font-family: Belgrano;
+
+    transition: all 0.3s;
+}
+
+.by-from:hover {
+    opacity: 1;
+}
